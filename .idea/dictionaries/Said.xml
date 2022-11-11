@@ -1,0 +1,36 @@
+<component name="ProjectDictionaryState">
+  <dictionary name="Said">
+    <words>
+      <w>bipush</w>
+      <w>bytecode</w>
+      <w>castable</w>
+      <w>consts</w>
+      <w>conststags</w>
+      <w>consttags</w>
+      <w>dadd</w>
+      <w>defs</w>
+      <w>dsub</w>
+      <w>fadd</w>
+      <w>fsub</w>
+      <w>iadd</w>
+      <w>incr</w>
+      <w>isub</w>
+      <w>ladd</w>
+      <w>lsub</w>
+      <w>noneable</w>
+      <w>opcode</w>
+      <w>opcodes</w>
+      <w>opcodesdefs</w>
+      <w>oubella</w>
+      <w>printf</w>
+      <w>printify</w>
+      <w>repr</w>
+      <w>sashc</w>
+      <w>spannable</w>
+      <w>struct</w>
+      <w>trivias</w>
+      <w>uint</w>
+      <w>ushort</w>
+    </words>
+  </dictionary>
+</component>

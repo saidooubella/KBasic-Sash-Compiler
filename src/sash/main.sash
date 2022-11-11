@@ -1,0 +1,20 @@
+
+fun empty() {}
+
+def globalSet = empty
+def globalGet = empty
+
+fun main() {
+
+    def a = "initial"
+
+    fun get() { print a }
+    fun set() { a = "updated" }
+
+    globalSet = set
+    globalGet = get
+}
+
+main()
+globalSet()
+globalGet()

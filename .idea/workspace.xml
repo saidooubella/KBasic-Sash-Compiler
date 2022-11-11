@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Sash:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92923be2-1b81-4cb7-9868-bdda10126cd1" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Sash" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sash/main.sash">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sash/emitter/scopes/LocalScope.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sash/emitter/Emitter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="n#!!block;n#writeTo#0;n#!!block;n#Emitter#0" />
+                <element signature="n#!!block;n#emitInstantlyJump#0;n#!!block;n#Emitter#0" />
+                <element signature="n#!!block;n#emitPlaceholderJump#0;n#!!block;n#Emitter#0" />
+                <element signature="n#!!block;n#patchJump#0;n#!!block;n#Emitter#0" />
+                <element signature="n#!!block;n#OpcodeMode#0;n#!!block;n#Emitter#0" />
+                <element signature="n#!!block;n#getSymbolIndex#0;n#!!block;n#Emitter#0" />
+                <element signature="n#!!block;n#emitShortCircuitExpr#0;n#!!block;n#Emitter#0" />
+                <element signature="n#!!block;n#flattenBinaryExpr#0" />
+                <element signature="n#!!block;n#flattenBinaryExpr#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>val</find>
+      <find>data class</find>
+      <find>get</find>
+      <find>getString</find>
+      <find>boolean equals(</find>
+      <find>Error:</find>
+      <find>\\</find>
+      <find>Package</find>
+      <find>requireValue</find>
+      <find>L</find>
+      <find>UnionType(listOf(AnyType, NoneType))</find>
+      <find>buffer.lastIndex</find>
+      <find>size</find>
+      <find>emitJump(</find>
+      <find>GOTO</find>
+      <find>//</find>
+      <find>=</find>
+      <find>reportalreadyu</find>
+      <find>reportJump</find>
+      <find>reportunre</find>
+      <find>require</find>
+      <find>return</find>
+      <find>missing</find>
+      <find>ret</find>
+      <find>CallExpression</find>
+      <find>unex</find>
+      <find>target</find>
+      <find>isGlobal</find>
+      <find>USHORT_MAX_VALUE</find>
+      <find>Instructions.LOAD</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>isFinished</replace>
+      <replace>state</replace>
+      <replace>cache</replace>
+      <replace>asBoolean().value</replace>
+      <replace>f</replace>
+      <replace>bind(.)+Expression\(context: BindingContext\)</replace>
+      <replace>, binderTablekup)</replace>
+      <replace>, binderTable)</replace>
+      <replace>Expression(symbols: SymbolsTable, lookup: SymbolLookup): Value</replace>
+      <replace>Statement(symbols: SymbolsTable, lookup: SymbolLookup</replace>
+      <replace>context.copy(expectedType = null)</replace>
+      <replace>listOf</replace>
+      <replace>Nonetype</replace>
+      <replace>NoneType</replace>
+      <replace>FunctionType(</replace>
+      <replace>environment</replace>
+      <replace>else -&gt; BooleanValue.True</replace>
+      <replace>else -&gt; BooleanValue.False</replace>
+      <replace>listFiles()?.</replace>
+      <replace>internal fun</replace>
+      <replace>internal data class</replace>
+      <replace>internal val</replace>
+      <replace />
+      <replace>/</replace>
+      <replace>buffer.size</replace>
+      <replace>_size</replace>
+      <replace>Instructions.CONSTANT</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Said\IdeaProjects\Sash\src\sash\input</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sash/grammar.txt" />
+        <option value="$PROJECT_DIR$/src/sash/types/Primitive.kt" />
+        <option value="$PROJECT_DIR$/src/sash/types/BaseType.kt" />
+        <option value="$PROJECT_DIR$/src/sash/binder/nodes/BinaryOperationBinder.kt" />
+        <option value="$PROJECT_DIR$/src/sash/Emitter.kt" />
+        <option value="$PROJECT_DIR$/src/sash/BufferArray.kt" />
+        <option value="$PROJECT_DIR$/src/sash/ByteArrayUtils.kt" />
+        <option value="$PROJECT_DIR$/src/sash/Instructions.kt" />
+        <option value="$PROJECT_DIR$/src/sash/test.kts" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/Main.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/OpcodesDefs.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/Disassembler.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/ConstsTags.kt" />
+        <option value="$PROJECT_DIR$/src/sash/tools/Utils.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/InstructionsGenerator.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/ByteArrayUtils.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/BufferArray.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/LoopScope.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/ConstantPool.kt" />
+        <option value="$PROJECT_DIR$/src/sash/evaluate/Evaluator.kt" />
+        <option value="$PROJECT_DIR$/src/sash/parser/nodes/Clause.kt" />
+        <option value="$PROJECT_DIR$/src/sash/lexer/cases/tokens/PunctuationCase.kt" />
+        <option value="$PROJECT_DIR$/../Sash/src/sash/errors/ErrorsReporter.kt" />
+        <option value="$PROJECT_DIR$/src/sash/binder/scope/SymbolsScope.kt" />
+        <option value="$PROJECT_DIR$/src/sash/types/Type.kt" />
+        <option value="$PROJECT_DIR$/src/sash/types/FunctionType.kt" />
+        <option value="$PROJECT_DIR$/src/sash/types/AbstractType.kt" />
+        <option value="$PROJECT_DIR$/../Sash/src/sash/binder/Binder.kt" />
+        <option value="$PROJECT_DIR$/src/sash/symbols/Symbol.kt" />
+        <option value="$PROJECT_DIR$/src/sash/lexer/cases/tokens/IdentifierCase.kt" />
+        <option value="$PROJECT_DIR$/src/sash/lexer/token/TokenType.kt" />
+        <option value="$PROJECT_DIR$/src/sash/parser/nodes/StatementNode.kt" />
+        <option value="$PROJECT_DIR$/src/sash/parser/Parser.kt" />
+        <option value="$PROJECT_DIR$/src/sash/parser/nodes/ExpressionNode.kt" />
+        <option value="$PROJECT_DIR$/src/sash/errors/ErrorsReporter.kt" />
+        <option value="$PROJECT_DIR$/src/sash/binder/nodes/ExpressionBindNode.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/LexicalScope.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/consts/ConstsTags.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/scopes/LexicalScope.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/GlobalScope.kt" />
+        <option value="$PROJECT_DIR$/src/sash/Main.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/scopes/GlobalScope.kt" />
+        <option value="$PROJECT_DIR$/src/sash/binder/nodes/StatementBindNode.kt" />
+        <option value="$PROJECT_DIR$/src/sash/binder/Binder.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/tools/BufferArray.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/Instructions.kt" />
+        <option value="$PROJECT_DIR$/src/sash/main.sash" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/consts/ConstantPool.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/tools/InstructionsGenerator.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/scopes/LocalScope.kt" />
+        <option value="$PROJECT_DIR$/src/sash/emitter/Emitter.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="424" />
+    <option name="y" value="-18" />
+    <option name="width" value="694" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Basic-Sash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic-Sash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Basic-Sash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic-Sash" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Basic-Sash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic-Sash" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Basic-Sash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic-Sash" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sash" type="462c0819:PsiDirectoryNode" />
+              <item name="emitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Basic-Sash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic-Sash" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sash" type="462c0819:PsiDirectoryNode" />
+              <item name="emitter" type="462c0819:PsiDirectoryNode" />
+              <item name="consts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Basic-Sash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic-Sash" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sash" type="462c0819:PsiDirectoryNode" />
+              <item name="emitter" type="462c0819:PsiDirectoryNode" />
+              <item name="scopes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Basic-Sash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic-Sash" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sash" type="462c0819:PsiDirectoryNode" />
+              <item name="emitter" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1642107643980" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Said\IdeaProjects\Basic-Sash\src\sash\types" />
+      <recent name="C:\Users\Said\IdeaProjects\Basic-Sash\src" />
+      <recent name="C:\Users\Said\IdeaProjects\Sash\src\sash" />
+      <recent name="C:\Users\Said\IdeaProjects\Sash\libs" />
+      <recent name="C:\Users\Said\IdeaProjects\Sash\src" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="demo" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="sash.emitter.scopes" />
+      <recent name="sash.emitter.consts" />
+      <recent name="sash.emitter" />
+      <recent name="sash.evaluate.values.primitives" />
+      <recent name="sash.symbols.Symbol" />
+    </key>
+    <key name="KotlinExtractInterfaceDialog.RECENT_KEYS">
+      <recent name="sash.input" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Said\IdeaProjects\Basic-Sash\src\sash\emitter\tools" />
+      <recent name="C:\Users\Said\IdeaProjects\Basic-Sash\src\sash\tools" />
+      <recent name="C:\Users\Said\IdeaProjects\Basic-Sash\src\sash\emitter" />
+      <recent name="C:\Users\Said\IdeaProjects\Sash\libs" />
+      <recent name="C:\Users\Said\IdeaProjects\Sash\src\sash\evaluate\environment" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.sash.MainKt">
+    <configuration name="sash.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
+      <module name="Sash" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="sash.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sash.emitter.tools.InstructionsGeneratorKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
+      <module name="Sash" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="sash.emitter.tools.InstructionsGeneratorKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.sash.MainKt" />
+      <item itemvalue="Kotlin.sash.emitter.tools.InstructionsGeneratorKt" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92923be2-1b81-4cb7-9868-bdda10126cd1" name="Default Changelist" comment="" />
+      <created>1640789920653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640789920653</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.492635" visible="true" weight="0.3419062" />
+      <window_info id="Structure" order="1" sideWeight="0.5054348" side_tool="true" weight="0.27887538" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.507365" side_tool="true" weight="0.28723404" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32405892" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49164134" weight="0.39443535" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969605" weight="0.40752864" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924013" weight="0.36824876" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3784219" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50835866" side_tool="true" weight="0.40589198" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.33060557" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.11951589" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="5" weight="0.3290469" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven" order="8" side_tool="true" weight="0.28214827" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>dummy://kotlinDecompiled/Result.decompiled.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="program" />
+        <watch expression="errors" />
+        <watch expression="((java.util.ArrayList)((ProgramBindNode)program).statements).get(2)" custom="sash.binder.nodes.ProgramBindNode,java.util.ArrayList" />
+        <watch expression="rootObject" />
+        <watch expression="((FunctionStatementBindNode)((java.util.ArrayList)((ProgramBindNode)program).statements).get(0)).block" custom="sash.binder.nodes.FunctionStatementBindNode,sash.binder.nodes.ProgramBindNode,java.util.ArrayList" />
+        <watch expression="$receiver" />
+        <watch expression="$receiver" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sash/API.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/tools/Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Unit.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/binder/nodes/BinaryOperationBinder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="n#BinaryOperationKey#0;n#BinaryOperationKey#0" />
+            <element signature="n#BinaryOperationValue#0;n#BinaryOperationValue#0" />
+            <element signature="n#!!block;n#BinaryOperation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_301/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="348" lean-forward="true" selection-start-line="348" selection-end-line="348" />
+          <folding>
+            <element signature="e#15891#15892#0" expanded="true" />
+            <element signature="e#15925#15926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Sequences.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="101" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Sequence.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/parser/nodes/Clause.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sash/src/sash/parser/nodes/Clause.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/lexer/cases/tokens/PunctuationCase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sash/src/sash/parser/nodes/StatementNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/types/FunctionType.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/types/AbstractType.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/types/PrimitiveType.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/binder/scope/SymbolsScope.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sash/src/sash/symbols/Symbol.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sash/src/sash/binder/nodes/StatementBindNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/lexer/token/TokenType.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/lexer/cases/tokens/IdentifierCase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/parser/nodes/StatementNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/evaluate/Evaluator.kt" />
+    <entry file="file://$PROJECT_DIR$/src/sash/grammar.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/parser/nodes/ExpressionNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sash/src/sash/parser/nodes/ExpressionNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sash/src/sash/parser/Parser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="431" lean-forward="true" selection-start-line="431" selection-end-line="431" />
+          <folding>
+            <element signature="n#!!block;n#primary#0;n#!!block;n#Parser#0" />
+            <element signature="e#17277#17792#1" />
+            <element signature="e#17834#18985#1" />
+            <element signature="e#19033#19897#1" />
+            <element signature="n#!!block;n#returnValue#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#consume#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#matchAll#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#matchAny#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#match#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#operation#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#avoidLooping#0;n#!!block;n#Parser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/parser/Parser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="305" lean-forward="true" selection-start-line="305" selection-end-line="305" />
+          <folding>
+            <element signature="n#!!block;n#createProgramNode#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#declaration#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#functionStatement#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#parameters#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#paramClause#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#variableStatement#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#statement#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#returnValue#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#doWhileStatement#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#whileStatement#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#ifStatement#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#optionalElseClause#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#statementsBlock#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#optionalTypeClause#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#typeClause#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#valueType#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#expression#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#assignment#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#ternary#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#disjunction#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#conjunction#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#equality#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#comparison#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#additive#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#multiplicative#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#arguments#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#primary#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#consume#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#matchAny#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#match#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#operation#0;n#!!block;n#Parser#0" />
+            <element signature="n#!!block;n#avoidLooping#0;n#!!block;n#Parser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sash/src/sash/binder/Binder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="556" lean-forward="true" selection-start-line="556" selection-end-line="556" />
+          <folding>
+            <element signature="n#!!block;n#bindFunctionStatement#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindMethodStatement#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindParamClauses#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindMapValueExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindListValueExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindTernaryExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindTupleValueExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindTryExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindVariableExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindGetExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindGetExpression#1;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindTypeCastExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindFunctionExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindPanicExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindIndexedExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindCallExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindRecordInitExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#validateUnreachedStatement#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#validateArguments#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindBreakExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindContinueExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindLiteralExpression#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindSymbolType#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#checkReturnPaths#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#checkReturnPaths#1;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#checkReturnPathsInternal#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#checkReturnPathsInternal#1;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#checkReturnPathsInternal#2;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#generalType#0;n#!!block;n#Binder#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sash/src/sash/errors/ErrorsReporter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="114" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/errors/ErrorsReporter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/binder/nodes/ExpressionBindNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sash/src/sash/binder/nodes/ExpressionBindNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/emitter/consts/ConstsTags.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/symbols/Symbol.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#22#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/emitter/tools/ByteArrayUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/emitter/scopes/GlobalScope.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/binder/nodes/StatementBindNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/emitter/tools/BufferArray.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#checkBounds#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/binder/Binder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="n#!!block;n#bind#0;n#!!block;n#Binder#0" />
+            <element signature="n#!!block;n#bindSymbolType#0;n#!!block;n#Binder#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/util/Preconditions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/emitter/Instructions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/emitter/scopes/LoopScope.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="309" column="3" lean-forward="true" selection-start-line="309" selection-start-column="3" selection-end-line="309" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/emitter/consts/ConstantPool.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Any.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/emitter/tools/InstructionsGenerator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="n#!!block;n#main#0" />
+            <element signature="n#!!block;n#generateGoOpcodesDefsFile#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-831">
+          <caret line="587" lean-forward="true" selection-start-line="587" selection-end-line="587" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/main.sash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/emitter/Emitter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="n#!!block;n#writeTo#0;n#!!block;n#Emitter#0" />
+            <element signature="n#!!block;n#emitInstantlyJump#0;n#!!block;n#Emitter#0" />
+            <element signature="n#!!block;n#emitPlaceholderJump#0;n#!!block;n#Emitter#0" />
+            <element signature="n#!!block;n#patchJump#0;n#!!block;n#Emitter#0" />
+            <element signature="n#!!block;n#OpcodeMode#0;n#!!block;n#Emitter#0" />
+            <element signature="n#!!block;n#getSymbolIndex#0;n#!!block;n#Emitter#0" />
+            <element signature="n#!!block;n#emitShortCircuitExpr#0;n#!!block;n#Emitter#0" />
+            <element signature="n#!!block;n#flattenBinaryExpr#0" />
+            <element signature="n#!!block;n#flattenBinaryExpr#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sash/emitter/scopes/LocalScope.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Sash:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin (Sash)|Kotlin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Sash</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

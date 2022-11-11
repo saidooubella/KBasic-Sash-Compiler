@@ -1,0 +1,78 @@
+
+statements          : declaration*
+
+declaration         : variable-dec
+                    | statement
+
+variable-dec        : ('let' | 'def') identifier (':' type)? = expression
+
+statement           : do-while-statement
+                    | while-statement
+                    | if-statement
+                    | expression
+                    | block
+
+do-while-statement  : 'do' statement 'while' '(' expression ')'
+
+while-statement     : 'while' '(' expression ')' statement
+
+if-statement        : 'if' '(' expression ')' statement ('else' statement)?
+
+block               : '{' statements '}'
+
+expression          : assignment
+
+assignment          : ternary (('=') assignment)?
+
+ternary             : disjunction '?' ternary ':' ternary
+
+disjunction         : conjunction (('||') conjunction)*
+
+conjunction         : equality (('&&') equality)*
+
+equality            : comparison (('==' | '!=') comparison)*
+
+comparison          : additive (('>' | '>=' | '<' | '<=') additive)*
+
+additive            : multiplicative (('+' | '-') multiplicative)*
+
+multiplicative      : unary (('*' | '/') unary)*
+
+unary               : ('+' | '-') unary
+                    | primary
+
+primary             : parent-expression
+                    | jump-expression
+                    | boolean-literal
+                    | double-literal
+                    | string-literal
+                    | float-literal
+                    | long-literal
+                    | int-literal
+                    | identifier
+
+parent-expression   : '(' expression ')'
+
+jump-expression     : 'continue'
+                    | 'break'
+
+boolean-literal     : 'true'
+                    | 'false'
+
+int-literal         : [0-9]+
+
+string-literal      : '"' [^('"'|'\n'|'\r\n')] '"'
+
+long-literal        : [0-9]+ ('l'|'L')
+
+float-literal       : [0-9]+ ('.' [0-9]+)? ('f'|'F')
+
+double-literal      : [0-9]+ '.' [0-9]+
+
+type                : identifier
+
+identifier          : letters | '$' | '_' (letters | digits | '$' | '_')*
+
+letters             : ???
+
+digits              : ???
